@@ -8,6 +8,6 @@ if __name__ == "__main__":
     # Use variables a, b, my to build a value for variable msg
     name = "Yaroslav"
     msg = f"{my.capitalize()} {a} {b} {name}"
-
+    print(msg)
     # Do not change the line below
     assert msg == f"My name is {name}"
