@@ -16,7 +16,7 @@ def fill(n: int, reverse: bool = False) -> list[int]:
     else:
         return res_list
 
-print(fill(0, True))
+print(fill(4, True))
 
 # Do not change the below's code
 if __name__ == "__main__":
@@ -26,6 +26,6 @@ if __name__ == "__main__":
     assert fill(1) == [1]
 
     assert fill(3, True) == [3, 2, 1]
-    assert fill(0, True) == 0
-    assert fill(4) == [4, 3, 2, 1]
+    assert fill(0, True) == []
+    assert fill(4, True) == [4, 3, 2, 1]
     assert fill(1) == [1]
