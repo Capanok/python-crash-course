@@ -3,8 +3,6 @@
 def multiply(a: int, b: int = 0) -> int:
     return a * b
 
-print(multiply(2))
-
 # Do not change the below's code
 if __name__ == "__main__":
     assert multiply(2, 2) == 4
